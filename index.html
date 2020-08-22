@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>すとぷりグッズ</title>
+        <script src="index.js" async></script>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img id="logo" src="./stpr_member.png" alt="">
+        <h1>すとぷりグッズ</h1>
+        <div id="items">
+            <div class="box">
+                <div id="purple">
+                    <p class="gacha">ななもり</p>
+                    <img class="gacha-img" src="./nanamori.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+            <div class="box">
+                <div id="orange">
+                    <p class="gacha">ジェル</p>
+                    <img class="gacha-img" src="./jel.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+            <div class="box">
+                <div id="pink">
+                    <p class="gacha">さとみ</p>
+                    <img class="gacha-img" src="./satomi.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="items2">
+            <div class="box">
+                <div id="blue">
+                    <p class="gacha">ころん</p>
+                    <img class="gacha-img" src="./colon.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+            <div class="box">
+                <div id="yellow">
+                    <p class="gacha">るうと</p>
+                    <img class="gacha-img" src="./root.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+            <div class="box">
+                <div id="red">
+                    <p class="gacha">莉犬</p>
+                    <img class="gacha-img" src="./riinu.png" alt="">
+                </div>
+                <div class="gacha-detail">
+                    <span class="gacha-price">3.99</span>
+                    <button class="btn btn-primary shop-item-button" type="button">カートに入れる</button>
+                </div>
+            </div>
+        </div>
+        <div id="purchase">
+            <h2>カート</h2>
+            <div class="cart">
+                <span class="cart-item">アイテム</span>
+                <span class="cart-price">プライス</span>
+                <span class="cart-quantity">QTY</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-isi">
+                    <span class="item-name">ななもり</span>
+                    <span class="gacha-harga">3.99</span>
+                    <div class="cart-qty">
+                        <input class="qty-input" type="number" value="1">
+                        <button class="btn btn-danger" type="button">除く</button>
+                    </div>
+                </div>
+                <div class="cart-isi">
+                    <span class="item-name">ジェル　</span>
+                    <span class="gacha-harga">3.99</span>
+                    <div class="cart-qty">
+                        <input class="qty-input" type="number" value="2">
+                        <button class="btn btn-danger" type="button">除く</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">合計</strong>
+                <span class="cart-total-price">11.97</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button" onclick="owari()">購入する</button>
+        </div>
+    </body>
+</html>

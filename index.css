@@ -1,0 +1,208 @@
+body{
+    margin: 0px;
+    background-image: url(background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    padding-bottom: 40px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    margin-top: 20px;
+    font-family: 'Kosugi Maru', sans-serif;
+    text-decoration: papayawhip;
+    text-decoration-style: solid;
+    text-shadow: 4px;
+}
+
+#items{
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+}
+
+#items2{
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#purple{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: purple;
+    font-size: 20px;
+}
+
+#orange{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: orange;
+    font-size: 20px;
+}
+
+#pink{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: pink;
+    font-size: 20px;
+}
+
+#blue{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: skyblue;
+    font-size: 20px;
+}
+
+#yellow{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: rgb(230, 230, 2);
+    font-size: 20px;
+}
+
+#red{
+    background-color: aliceblue;
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+.gacha-img{
+    width: auto;
+    height: 200px;
+    margin-top: 25px;
+}
+
+.gacha{
+    width: 20px;
+    height: auto;
+    align-self: center;
+    margin: 20px;
+}
+
+.box{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gacha-detail{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Kosugi Maru', sans-serif;
+    font-size: 24px;
+    justify-content: space-around;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #f7357f;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.btn-primary:hover{
+    background-color: #d31d63;
+    cursor: pointer;
+}
+
+.gacha-price{
+    margin-bottom: 12px;
+}
+
+#purchase{
+    margin-top: 80px;
+    width: 700px;
+    background-color: aliceblue;
+    border-radius: .5em;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cart{
+    width: 600px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-weight: bolder ;
+}
+
+.cart-items{
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.cart-isi{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-left: 20px;
+}
+
+.qty-input{
+    width: 50px;
+    height: 16px;
+}
+
+.item-name{
+    margin-right: 40px;
+}
+
+.cart-total{
+    margin-top: 20px;
+}
+
+.btn-purchase{
+    margin-bottom: 20px;
+}
